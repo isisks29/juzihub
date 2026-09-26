@@ -25,7 +25,7 @@ jobs:
             -isysroot "$(xcrun --sdk iphoneos --show-sdk-path)" \
             -dynamiclib -fobjc-arc \
             -framework UIKit -framework Foundation -framework CoreGraphics \
-            -o crack_ballsace.dylib crack_ballsace.m
+            -o crack_juzihub.dylib crack_juzihub.m
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
